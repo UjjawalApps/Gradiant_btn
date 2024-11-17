@@ -13,6 +13,9 @@ html, body {
   .btn::after{
     background: transparent;
   }
+  -webkit-user-select: none;  /* Disable text selection for WebKit browsers */
+  -moz-user-select: none;     /* Disable text selection for Firefox */
+  user-select: none;          /* Disable text selection for other browsers */
 
 }
 
@@ -27,6 +30,8 @@ html, body {
   position: relative;
   z-index: 0;
   border-radius: 25px;
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight color on mobile devices */
+
 }
 .btn::after {
   content: "";
