@@ -18,11 +18,11 @@ html, body {
 
 /* button */
 .btn {
-  margin: 20px;
+  margin: 100px;
   padding: 15px 40px;
   border: none;
   outline: none;
-  color: transparent;
+  color: #FFF;
   cursor: pointer;
   position: relative;
   z-index: 0;
